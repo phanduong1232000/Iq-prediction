@@ -980,7 +980,38 @@ p {
   border-radius: 10px;
   padding: 3px 20px;
 }
-
+.intro-coin{
+  position: relative;
+  margin-top: 50px;
+}
+.intro-coin .prev-coin{
+  position: absolute;
+  top: 35%;
+  left: -80px;
+}
+.intro-coin .prev-coin i {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #293543;
+  padding: 4px 30px;
+  border-radius: 10px;
+}
+.intro-coin .next-coin{
+  position: absolute;
+  top: 35%;
+  right: -70px;
+}
+.intro-coin .next-coin i {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #293543;
+  padding: 4px 30px;
+  border-radius: 10px;
+}
+.intro-coin .swiper-coin .swiper-slide img {
+  width: 100%;
+  max-width: 50px;
+}
 /*=============== progess crilcle======================== */
 .progress-cricle {
   width: 100px;
