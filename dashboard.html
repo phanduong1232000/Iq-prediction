@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-5/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-6.1/css/all.min.css">
+    <link rel='stylesheet' href="assets/css/wow.css">
+    <title>DashBoard</title>
+</head>
+
+<body>
+    <section class="topbar">
+        <div class="container">
+            <div class="box-topbar">
+                <img src="./assets/img/logo/topbar.png" class="img-fluid" alt="">
+                <p><span>PHISHING WARNING:</span> Please make sure you're visiting <a
+                        href="https://iqprediction.com">https://iqprediction.com</a> check the URL carefully.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="header">
+        <div class="container">
+            <div class="box-header">
+                <a href="./index.html" class="logo">
+                    <img src="./assets/img/logo/header.png" class="img-fluid" alt="">
+                    <p>IQ PREDICTION</p>
+                </a>
+                <div class="main-link">
+                    <a href="./dashboard.html">Dashboard</a>
+                    <a href="./iq-prediction.html">IQ - Prediction</a>
+                    <a href="./leaderboard.html">Leaderboard</a>
+                </div>
+                <div class="account">
+                    <a class="login" href="./login.html">LOGIN</a>
+                    <a class="regis" href="./register.html"><i class="fa-solid fa-gift"></i> REGISTER</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dash">
+        <div class="container">
+            <div class="title">
+                Refer Friends. Earn<br>
+                Crypto Together.
+            </div>
+            <a href="#">View referral rules ></a>
+        </div>
+    </section>
+
+    <section class="main-dash">
+        <div class="container">
+            <ul class="nav nav-pills" id="pills-tab">
+                <li class="nav-item">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" aria-controls="pills-home">Dashboard</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" aria-controls="pills-profile">Referrals</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" aria-controls="pills-contact">Commission
+                        Rebate</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" aria-labelledby="pills-home-tab">
+                    <div class="box-content">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-lg-4 col-sm-6 col-xs-12 col-12">
+                                <div class="name">Your Earnings</div>
+                                <div class="price">0 iUSD</div>
+                                <div class="value">+0BTC</div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-xs-12 col-12">
+                                <div class="name">Friends Who Started Trading <i class="fa-solid fa-circle-info"></i>
+                                </div>
+                                <div class="price">0 </div>
+                                <div class="value">+0BTC</div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-xs-12 col-12">
+                                <div class="name">Friends <i class="fa-solid fa-circle-info"></i></div>
+                                <div class="price">0 </div>
+                                <div class="value">+0BTC</div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-xs-12 col-12">
+                                <div class="name">Top Referrer Bonus <i class="fa-solid fa-circle-info"></i></div>
+                                <div class="price">5.9654685 iUSD</div>
+                                <div class="name">ID 42545778</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noti">
+                        <p>* Data update time refers to UTC + 0 time zone. The data maintenance time is 3am - 5am
+                            (UTC+0) every day. During this period, the calculation of today's data is based on the
+                            assets of previous day. After maintenance,
+                            all data will be displayed properly.
+                        </p>
+                        <p>* Statement: due to the complexity of financial data, there might be nuances and delay.
+                            Data displayed above is for reference only. We sincerely apologize for any
+                            inconvenience.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" aria-labelledby="pills-profile-tab">
+                    <div class="box-content">
+                        <div class="table-history">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <th scope="col">Friend's User ID</th>
+                                        <th scope="col">Commission Earned (xxx iUSD)</th>
+                                        <th scope="col">Commission Time</th>
+                                        <th scope="col">Distribution Status</th>
+                                        <th scope="col">ROUNDS PLAYED</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">#1</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#2</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right red-color">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#3</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right red-color">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#4</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#5</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#6</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="noti bg-noti">
+                        <p><img src="./assets/img/noti.png" width="50px" alt="">
+                            Your Referral commission will be credited to your wallet balance within the next 72 hours. If
+                            you do not receive your commission within 72 hours, please contact our online support center
+                            for futher assisstance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-contact" aria-labelledby="pills-contact-tab">
+                    <div class="box-content">
+                        <div class="table-history">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <th scope="col">USER</th>
+                                        <th scope="col">NET WINNINGS</th>
+                                        <th scope="col">WIN RATE</th>
+                                        <th scope="col">ROUNDS WON</th>
+                                        <th scope="col">ROUNDS PLAYED</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">#1</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#2</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right red-color">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#3</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right red-color">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#4</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#5</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">#6</th>
+                                        <td>
+                                            <img src="./assets/img/user.png" style="width:20px; margin-right: 10px;" />
+                                            0x00..6b1a
+                                        </td>
+                                        <td>
+                                            <p class="right ">+2,234.5643<br>
+                                                <span>~$ 7,59</span>
+                                            </p>
+                                        </td>
+                                        <td>61.15%</td>
+                                        <td>61.15</td>
+                                        <td>10,75</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/css/bootstrap-5/js/bootstrap.bundle.min.js">
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
