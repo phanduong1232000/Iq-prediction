@@ -61,7 +61,7 @@ var swiper2 = new Swiper(".swiper-coin", {
     breakpoints: {
         // when window width is >= 480px
         120: {
-        slidesPerView: 2,
+        slidesPerView: 8,
         spaceBetween: 2
         },
         // when window width is >= 640px
