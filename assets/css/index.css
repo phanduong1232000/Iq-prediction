@@ -1029,9 +1029,18 @@ p {
   padding: 4px 30px;
   border-radius: 10px;
 }
+.intro-coin .swiper-coin .swiper-wrapper{
+  padding: 10px 0px;
+}
 .intro-coin .swiper-coin .swiper-slide img {
   width: 100%;
   max-width: 50px;
+  transition: .5s;
+  position: relative;
+  cursor: pointer;
+}
+.intro-coin .swiper-coin .swiper-slide img:hover{
+  transform: translateY(-10px);
 }
 .hidden-pc{
   overflow: hidden;
@@ -1260,4 +1269,14 @@ p {
   .main-pre .box-logo{
     display: none;
   }
+  .main-pre .btc-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.intro-coin .prev-coin,
+.intro-coin .next-coin{
+  display: none;
+}
 }

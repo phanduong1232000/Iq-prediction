@@ -1,15 +1,8 @@
 new WOW().init();
 
-// $(window).on('load', function () {
-//     $('#myModal').modal('show');
-// });
-
-// $(document).ready(function () {
-//     $(".card-active").click(function () {
-//         // $(".tab").removeClass("active");
-//         $(this).addClass("card");
-//     });
-// });
+$(window).on('load', function () {
+    $('#myModal').modal('show');
+});
 
 
 $(document).ready(function () {
@@ -75,8 +68,8 @@ var swiper1 = new Swiper(".swiper-partner", {
     breakpoints: {
         // when window width is >= 480px
         120: {
-            slidesPerView: 2,
-            spaceBetween: 2
+            slidesPerView:1,
+            spaceBetween: 1
         },
         // when window width is >= 640px
         740: {
@@ -99,10 +92,10 @@ var swiper2 = new Swiper(".swiper-coin", {
     spaceBetween: 10,
     slideToClickedSlide: true,
     // auto
-    // autoplay: {
-    //     delay: 3500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+    },
     loop: true,
     navigation: {
         nextEl: '.next-coin',
@@ -115,7 +108,7 @@ var swiper2 = new Swiper(".swiper-coin", {
     breakpoints: {
         // when window width is >= 480px
         120: {
-            slidesPerView: 8,
+            slidesPerView:6,
             spaceBetween: 2
         },
         // when window width is >= 640px
