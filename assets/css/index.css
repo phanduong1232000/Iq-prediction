@@ -605,7 +605,9 @@ p {
   padding: 10px 20px;
   border-radius: 0px 0px 10px 10px;
 }
-
+.main-pre .intro-slider .intro-card .bg-height{
+  min-height: 380px;
+}
 .main-pre .intro-slider .intro-card .content {
   background-color: #12273f;
 }
@@ -1096,7 +1098,7 @@ p {
  .card__side--front {
   color: #000;
   position:absolute;
-  top: -50px;
+  
 }
  .card__side--back {
 	 transform: rotateY(180deg);
