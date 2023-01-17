@@ -703,6 +703,10 @@ p {
 .main-pre .intro-slider .intro-card .content .midle .box-left .pool-box {
   font-size: 14px;
   font-weight: bold;
+} 
+.main-pre .intro-slider .intro-card .content .midle .box-left .pool-box-entry {
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
 } 
 .main-pre .intro-slider .intro-card .content .midle .box-left .start{
