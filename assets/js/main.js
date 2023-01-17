@@ -50,7 +50,16 @@ var swiper1 = new Swiper(".swiper-partner", {
     slidesPerView: 4,
     spaceBetween: 10,
     slideToClickedSlide: true,
-    allowTouchMove:false,
+    // allowTouchMove:false,
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+        dragSize: 100,
+      },
+      mousewheel: {
+        enabled: true,
+        sensitivity: 5.5,
+      },
     // auto
     // autoplay: {
     //     delay: 3500,
