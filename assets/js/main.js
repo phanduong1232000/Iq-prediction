@@ -46,11 +46,51 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    var toggle = 1;
+    $('.en-down').click(function () {
+        toggle++;
+        if ((toggle % 2) == 0) {
+            $('.card__side--front').css({
+                'transform': 'rotateY(-180deg)'
+            });
+            $('.card__side--back').css({
+                'transform': 'rotateY(0deg)'
+            });
+        } else {
+            $('.card__side--back').css({
+                'transform': 'rotateY(-180deg)'
+            });
+            $('.card__side--front').css({
+                'transform': 'rotateY(0deg)'
+            });
+        }
+    });
+
+    $('.back-prev').click(function () {
+        toggle++;
+        if ((toggle % 2) == 0) {
+            $('.card__side--front').css({
+                'transform': 'rotateY(-180deg)'
+            });
+            $('.card__side--back').css({
+                'transform': 'rotateY(0deg)'
+            });
+        } else {
+            $('.card__side--back').css({
+                'transform': 'rotateY(-180deg)'
+            });
+            $('.card__side--front').css({
+                'transform': 'rotateY(0deg)'
+            });
+        }
+    });
+});
+
 var swiper1 = new Swiper(".swiper-partner", {
     slidesPerView: 4,
     spaceBetween: 10,
-    slideToClickedSlide: true,
-    // allowTouchMove:false,
+    slideToClickedSlide: false,
     scrollbar: {
         el: '.swiper-scrollbar',
         draggable: true,
@@ -60,11 +100,6 @@ var swiper1 = new Swiper(".swiper-partner", {
         enabled: true,
         sensitivity: 5.5,
       },
-    // auto
-    // autoplay: {
-    //     delay: 3500,
-    //     disableOnInteraction: false,
-    // },
     loop: false,
     navigation: {
         nextEl: '.next',
