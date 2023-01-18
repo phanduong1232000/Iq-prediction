@@ -211,6 +211,7 @@ p {
 .rank .box-gold .title img {
   width: 100%;
   max-width: 80px;
+  margin-left: 25px;
 }
 .rank .box-gold .title p {
   color: #1fc7d4;
@@ -265,6 +266,7 @@ p {
 .rank .box-silver .title img {
   width: 100%;
   max-width: 80px;
+  margin-left: 25px;
 }
 .rank .box-silver .title p {
   color: #1fc7d4;
@@ -318,6 +320,7 @@ p {
 .rank .box-cu .title img {
   width: 100%;
   max-width: 80px;
+  margin-left: 25px;
 }
 .rank .box-cu .title p {
   color: #1fc7d4;
